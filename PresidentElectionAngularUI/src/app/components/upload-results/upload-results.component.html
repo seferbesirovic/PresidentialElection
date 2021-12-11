@@ -1,0 +1,9 @@
+<div class="input-group" style="text-align: center;">
+    <input type="file" #fileInput id="fileInput" (change)="stageFile()" style="text-align: center;"
+        accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+    <div class="input-group-append">
+        <button mat-raised-button (click)="fileUpload()"
+        style="text-align: center;">Upload</button>
+        
+    </div>
+</div>

@@ -1,0 +1,52 @@
+.mat-expansion-panel-header:hover,
+.mat-expansion-panel-header.mat-expanded {
+background:#cacaca !important;
+}
+
+.mat-expansion-panel-header {
+    background:#77797a !important;
+  }
+.mat-expansion-panel{
+    margin:0;
+}
+
+::ng-deep .mat-expansion-panel-body{
+    background:white;
+    color:#77797a;
+    border: 3px solid black;
+}
+
+::ng-deep table {
+    width: 100%;
+    border: 3px solid black;
+  }
+
+::ng-deep .mat-header-row{
+    background-color: #77797a;
+   
+}
+
+::ng-deep table td.mat-cell{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding:10px;
+}
+
+::ng-deep table td.mat-cell:first-of-type{
+    padding-left: 10px;
+}
+
+::ng-deep table th.mat-header-cell{
+    padding:10px;
+    border: 1px solid black;
+    font-size: medium;
+}
+
+::ng-deep table th.mat-header-cell:first-of-type{
+    padding-left: 10px;
+}
+::ng-deep body{
+    padding-left:300px;
+    padding-right:300px;
+}
